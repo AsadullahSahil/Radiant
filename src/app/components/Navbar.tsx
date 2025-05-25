@@ -16,7 +16,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="relative z-50 w-full bg-white py-4">
+    <header className="relative z-50 w-full py-4">
       {/* Lines */}
       <div className="absolute inset-y-0 left-1/2 -z-10 w-full -translate-x-1/2 pointer-events-none">
         <div className="absolute inset-x-0 top-6 border-t border-black/10"></div>
