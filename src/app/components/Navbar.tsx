@@ -212,11 +212,6 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link href="#get-started" onClick={() => setMobileOpen(false)}>
-              <button className="w-full bg-gray-900 text-white px-4 py-2 rounded-xl text-sm font-medium hover:bg-gray-800 transition">
-                Get Started
-              </button>
-            </Link>
           </div>
         </div>
       )}
